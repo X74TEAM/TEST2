@@ -94,7 +94,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-#os.system('xdg-open https://youtube.com/@sudairafridi')
+#os.system('xdg-open https://github.com/X74TEAM')
 os.system('espeak -a 300 "WELCOME TO SAMIR RANDOM CLONING TOOLS"')
 logo=("""\033[0;92m
 ######  ####### #     # #     # ###  #####  
@@ -113,7 +113,6 @@ Tools Type : FREE
 Version    : 1.0
 _____________________________
 """)
-
 loop = 0
 oks = []
 cps = []
@@ -180,7 +179,7 @@ for xd in range(10000):
 # APK CHECK EMIL# APK CHECK EMIL# APK CHECK EMIL# APK CHECK EMIL
 def sudair():
     os.system('clear')
-    os.system('xdg-open https://youtube.com/@sudairafridi')
+    os.system('xdg-open https://github.com/X74TEAM/TEST2')
     sudair_Hasan(logo)
     print ('\x1b[1;96m[1]  Clone From RANDOM BD    \033[1;36m[V1]')
     print ('\x1b[1;91m[2]  Clone From GMAIL        \033[1;32m[V1]')
@@ -194,7 +193,7 @@ def sudair():
 def action():
     global cpb
     global oks
-    os.system('xdg-open https://youtube.com/@sudairafridi')
+    os.system('xdg-open https://github.com/X74TEAM')
     shuvo = input('\nINPUT===>   ')
     if shuvo == '':
         print()
@@ -210,15 +209,15 @@ def action():
         sudair_pk()
     elif shuvo == '4':
         os.system('clear')
-        os.system('xdg-open https://youtube.com/@sudairafridi')
+        os.system('xdg-open https://github.com/X74TEAM')
         print (logo)
         print('[1]Facebook \n [2] Whatapp')
         mahd = input('Chouse :')
         if mahd =='1':
-            os.system("xdg-open https://facebook.com/devilsudair.00")
+            os.system("xdg-open https://facebook.com/SHANTO.ID")
             sudair()
         elif mahd == '2':
-            os.system('xdg-open https://wa.me/+8801324313100')
+            os.system('xdg-open https://wa.me/+8801700909089')
             sudair()
 # APK CHECK EMIL
 def sudair_email():
@@ -289,7 +288,7 @@ def sudair_bd():
     code = random.choice([rk1])                      # input(f' [{xr}â– {x}] Choose : ')
     os.system('clear')
     sudair_Hasan(logo)
-    limit = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;93m10000, \x1b[38;5;208m20000, \033[0;92m50000 ] \n\033[0;95m------------------------------------------------------------------------------------------------------------------ \n\033[0;97m[{xr}^{x}] \033[0;92mPUT CLONING LIMIT:\033[0;93m '))
+    limit = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;93m10000, \x1b[38;5;208m20000, \033[0;92m50000 ] \n\033[0;95m----------------------------------------------------- \n\033[0;97m[{xr}^{x}] \033[0;92mPUT CLONING LIMIT:\033[0;93m '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(9))
         user.append(nmp)
@@ -319,7 +318,6 @@ def sudair_bd():
                 pwx.append(love)
             manshera.submit(rcrack,uid,pwx,tl)
     print(f"\n{x} --------------------------------------------------------------------------------------")
-
 
 #_______
 def sudair_pk():
@@ -365,8 +363,6 @@ def sudair_pk():
                 pwx.append(love)
             manshera.submit(rcrack,uid,pwx,tl)
     print(f"\n{x} ------------------------------------------------------")
-
-
 
 def rcrack(uid,pwx,tl):
     #print(user)
@@ -431,11 +427,10 @@ def rcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s{x}[{xr} Running{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write(f'\r\r%s{x}[{xr}Running{x}] [%s|%s] [OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
-
 
 def reg():
     os.system('clear')
@@ -476,7 +471,7 @@ def reg2():
     print (' Your id: ' + id+sudair)
     print ('')
     input(' Press enter to go to whatsapp ')
-    os.system('am start https://wa.me/+8801616406924?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20sudair=MEX%20Paid%20Tools.%20My%20Key:%20'+id+sudair)
+    os.system('am start https://wa.me/+8801700909089?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20sudair=MEX%20Paid%20Tools.%20My%20Key:%20'+id+sudair)
     sav = open('/sdcard/.ma.txt', 'w')
     sav.write(id+sudair)
     sav.close()
