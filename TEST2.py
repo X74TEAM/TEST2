@@ -96,8 +96,7 @@ ha = current.day
 today = date.today()
 #os.system('xdg-open https://youtube.com/@sudairafridi')
 os.system('espeak -a 300 "WELCOME TO SAMIR RANDOM CLONING TOOLS"')
-logo=("""\033[1;37m
-
+logo=("""\033[0;92m
 ######  ####### #     # #     # ###  #####  
 #     # #       #     # #     #  #  #     # 
 #     # #       #     # #     #  #  #       
