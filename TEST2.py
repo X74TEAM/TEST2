@@ -105,11 +105,11 @@ logo=("""\033[0;92m
 #     # #         # #   #     #  #  #     # 
 ######  #######    #    #     # ###  #####  
 _____________________________
-Auther        :  DEVHIS
-GitHub        :  X74TEAM
+Auther     : DEVHIS
+GitHub     : X74TEAM
 Facebook   : HASAN IMAM
 Tools Type : FREE
-Version       : 1.0
+Version    : 1.0
 _____________________________
 """)
 
@@ -272,7 +272,7 @@ def sudair_email():
                 pwx.append(Eman)
                 pwx.append(love)
             manshera.submit(rcrack,uid,pwx,tl)
-    print(f"\n{x} ------------------------------------------------------------------------------------------------------------------")
+    print(f"\n{x} ---------------------------------------------")
 
 #RANDOM BD     
 def sudair_bd():
@@ -283,7 +283,7 @@ def sudair_bd():
     os.system("clear")
     sudair_Hasan(logo)
     sudair_Hasan(f' [{xr}^{x}] Example>: {xr}019,017,018,016,015{x}')
-    sudair_Hasan(" --------------------------------------------------------------------------------------")
+    sudair_Hasan(" ---------------------------------------------")
     rk1 = '01'
     code = random.choice([rk1])                      # input(f' [{xr}â– {x}] Choose : ')
     os.system('clear')
