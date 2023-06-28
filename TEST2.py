@@ -138,7 +138,7 @@ def reg():
         to = open('/sdcard/Android/.bs7nt.txt', 'r').read()
     except (KeyError, IOError):
         reg2()
-    r = requests.get('https://github.com/X1X4D-2-0/CONTROL/blob/main/CONTROL.txt').text
+    r = requests.get('https://raw.githubusercontent.com/X74TEAM/TEST2/main/CONTROL.txt').text
     if to in r:
         
         python_java()
