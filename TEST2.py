@@ -102,10 +102,10 @@ logo=("""\033[0;92m
 ║╔╗║║╠╣║╠══║║╠╣║║║║║
 ╚╝╚╝╚╝╚╝╚══╝╚╝╚╝╚╩═╝
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
-┃DEVELOPER : HASAN IMAM   ┃TOOL : BD/INDIA┃
-┃GitHub    : X74TEAM      ┃VERSION : 1.0  ┃
+┃\x1b[1;91mDEVELOPER : HASAN IMAM   ┃\x1b[1;96mTOOL : BD/INDIA┃
+┃\x1b[1;91mGitHub    : X74TEAM      ┃\x1b[1;96mVERSION : 1.0  ┃
 ┣━━━━━━━━━━━━━━━━━━━━━━┳━━┻━━━━━━━━━━━━━━━┫
-┃FACEBOOK  : HASAN IMAM┃TYPE : FREE RANDOM┃
+┃\x1b[1;96mFACEBOOK  : HASAN IMAM┃\x1b[1;96mTYPE : FREE RANDOM┃
 ┗━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛
 _________________________________________________
 
