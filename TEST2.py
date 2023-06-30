@@ -97,21 +97,16 @@ today = date.today()
 #os.system('xdg-open https://github.com/X74TEAM')
 os.system('espeak -a 300 "WELCOME TO SAMIR RANDOM CLONING TOOLS"')
 logo=("""\033[0;92m
-┏━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
-┃CEO : MAHADI HASAN AFRIDI┃TOOL : BD/INDIA┃
-┃CEO : SEFAT SARKER       ┃VERSION : 4.8  ┃
-┣━━━━━━━━━━━━━━━━━━━━━━┳━━┻━━━━━━━━━━━━━━━┫
-┃GITHUB : SEFAT-MAHADI ┃TYPE : FREE RANDOM┃
-┗━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛
 ╔╗╔╗╔══╗╔══╗╔══╗╔═╦╗
 ║╚╝║║╔╗║║══╣║╔╗║║║║║
 ║╔╗║║╠╣║╠══║║╠╣║║║║║
 ╚╝╚╝╚╝╚╝╚══╝╚╝╚╝╚╩═╝
-
-┏┓┏┳━━┳━━┳━━┳━┳┓┏━━┳━┳━┳━━┳━┳━┓
-┃┗┛┃┏┓┃━━┫┏┓┃┃┃┃┗┃┃┫┃┃┃┃┏┓┃┃┃┃┃
-┃┏┓┃┣┫┣━━┃┣┫┃┃┃┃┏┃┃┫┃┃┃┃┣┫┃┃┃┃┃
-┗┛┗┻┛┗┻━━┻┛┗┻┻━┛┗━━┻┻━┻┻┛┗┻┻━┻┛
+┏━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃DEVELOPER : HASAN IMAM       ┃TOOL : BD/INDIA┃
+┃GitHub    : Hasanimamshanto  ┃VERSION : 1.0  ┃
+┣━━━━━━━━━━━━━━━━━━━━━━┳━━┻━━━━━━━━━━━━━━━┫
+┃GITHUB : SEFAT-MAHADI ┃TYPE : FREE RANDOM┃
+┗━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛
 _________________________________________________
 
 Auther     : DEVHIS
