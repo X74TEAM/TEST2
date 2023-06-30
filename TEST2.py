@@ -102,10 +102,10 @@ logo=("""\033[0;92m
 ║╔╗║║╠╣║╠══║║╠╣║║║║║
 ╚╝╚╝╚╝╚╝╚══╝╚╝╚╝╚╩═╝
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
-┃DEVELOPER : HASAN IMAM       ┃TOOL : BD/INDIA┃
-┃GitHub    : Hasanimamshanto  ┃VERSION : 1.0  ┃
+┃DEVELOPER : HASAN IMAM   ┃TOOL : BD/INDIA┃
+┃GitHub    : X74TEAM      ┃VERSION : 1.0  ┃
 ┣━━━━━━━━━━━━━━━━━━━━━━┳━━┻━━━━━━━━━━━━━━━┫
-┃GITHUB : SEFAT-MAHADI ┃TYPE : FREE RANDOM┃
+┃FACEBOOK  : HASAN IMAM┃TYPE : FREE RANDOM┃
 ┗━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛
 _________________________________________________
 
