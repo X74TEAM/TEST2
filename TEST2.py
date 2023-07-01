@@ -105,7 +105,7 @@ logo=("""\x1b[1;92m
 ┃\033[1;31mDEVELOPER : \x1b[1;92mHASAN IMAM   ┃\x1b[1;96mTOOL : \x1b[1;92mBD/INDIA┃
 ┃\033[1;31mGITHUB    : \x1b[1;92mX74TEAM      ┃\x1b[1;96mVERSION : \033[1;37m1.0\x1b[1;92m  ┃
 ┣━━━━━━━━━━━━━━━━━━━━━━┳━━┻━━━━━━━━━━━━━━━┫
-┃\033[0;34mFACEBOOK  : \x1b[1;92mHASAN IMAM┃\x1b[1;96mTYPE : print(Back.RED + 'FREE') \e[0m" \x1b[1;92mRANDOM┃
+┃\033[0;34mFACEBOOK  : \x1b[1;92mHASAN IMAM┃\x1b[1;96mTYPE : \x1b[6;30;42mFREE \x1b[1;92mRANDOM┃
 ┗━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛
 """)
 loop = 0
