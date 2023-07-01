@@ -104,7 +104,7 @@ logo1 = ("""\x1b[1;92m
 ┃\033[1;31mGITHUB    : \x1b[1;92mX74TEAM      ┃\x1b[1;96mVERSION : \033[1;37m1.0\x1b[1;92m  ┃
 ┣━━━━━━━━━━━━━━━━━━━━━━┳━━┻━━━━━━━━━━━━━━━┫
 ┃\033[1;34mFACEBOOK  : \x1b[1;92mHASAN IMAM┃\x1b[1;96mTYPE : \033[1;37m\x1b[41mFREE\x1b[0m \x1b[1;92mRANDOM┃
-┗━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛\x1b[0m""")
+┗━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛""")
 
 def DEVHISx():
 	print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
@@ -125,13 +125,13 @@ def fuck():
     user=[]
     os.system('clear')
     print(logo)
-    print('┏━[•]  EXAMPLE CODE: 017, 018, 019, 016')
+    print('┏━[•] EXAMPLE CODE: 017, 018, 019, 016')
     code = input('┗━[+] CHOOSE CODE : ')
     name = ''.join(random.choice(string.digits) for _ in range(2))
     cod = ''.join(random.choice(string.digits) for _ in range(2))
     os.system('clear')
     print(logo)
-    print('┏━[•]  EXAMPLE: 2000 3000 5000 10000 ')
+    print('┏━[•] EXAMPLE: 2000 3000 5000 10000 ')
     limit = int(input('┗━[+] CHOOSE : '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
