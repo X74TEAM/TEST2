@@ -111,11 +111,21 @@ def DEVHISx():
 def Main():
         os.system("clear")
         print(logo)
-        print("\033[1;92m[1] RANDOM CRACK")
-        print("\033[1;92m[0] Exit")
-        DEVHIS =input("\n [?] Choose : ")
+        print("\033[1;92m[1] BD RANDOM CLONING")
+        print("\033[1;92m[2] INDIA RANDOM CLONING")
+        print("\033[1;92m[3] JOIN FACEBOOK GROUP")
+        print("\033[1;92m[4] FOLLOW ON FACEBOOK")
+        print("\033[1;92m[0] EXIT PROGRAMMING")
+        print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+        DEVHIS =input("\n[?] Choose : ")
         if DEVHIS in ["1","01"]:
             fuck()
+       if DEVHIS in ["2","02"]:
+            exit()
+        if DEVHIS in ["3","03"]:
+            os.system('xdg-open https://www.facebook.com/group/')
+        if DEVHIS in ["4","04"]:
+        	os.system('xdg-open https://www.facebook.com/SHANTO.ID')
         if DEVHIS in [" 0", "00"]:
             exit()
         else:
