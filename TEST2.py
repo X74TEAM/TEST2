@@ -149,10 +149,10 @@ def fuck():
         os.system('xdg-open https://github.com/X74TEAM')
         print(logo1)
         tl = str(len(user))
-        print('┏━[•] Total ids: '+tl)
-        print('┣━[•] Your Code: '+code)
+        print('┏━[•] Total IDs:\033[1;37m '+tl)
+        print('┣━[•] Your Code:\033[1;37m '+code)
         print('┣━[•] Process has been started')
-        print('┗━[•] Use flight mode for speed up')
+        print('┗━[•] Don't Use Airplane mode')
         print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         for love in user:
             uid = code+name+cod+love
