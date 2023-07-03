@@ -185,12 +185,11 @@ def DEVHIS2(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = { 'authority': 'mbasic.facebook.com',
+            header_freefb = {'authority': 'm.alpha.facebook.com',
     'method': 'GET',
     'scheme': 'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en-GB;q=0.9,en;q=0.8',
-    'referer': 'https://mbasic.facebook.com/',
     'cache-control': 'max-age=0',
     'sec-ch-prefers-color-scheme': 'light',
     'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
