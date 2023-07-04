@@ -137,7 +137,6 @@ def fuck():
     code = input('┗━[+] CHOOSE CODE : ')
     name = ''.join(random.choice(string.digits) for _ in range(2))
     cod = ''.join(random.choice(string.digits) for _ in range(2))
-    os.system('clear')
     print(logo)
     print('┏━[•] EXAMPLE: 2000 3000 5000 10000 ')
     limit = int(input('┗━[+] CHOOSE : '))
@@ -146,7 +145,6 @@ def fuck():
         user.append(nmp)
     with ThreadPool(max_workers=30) as yaari:
         os.system('clear')
-        os.system('xdg-open https://github.com/X74TEAM')
         print(logo1)
         tl = str(len(user))
         print('┏━[•] Total IDs: \033[1;37m'+tl)
