@@ -1,9 +1,6 @@
-#Script         
-#    Respotary   Star  
-#----------------------------------------------------------------------------------------------------------
-#CREATE BY : DEVHIS ISLAM HIMU
-#WHATSAPP : +8801644777805
-#GITHUB : https://github.com/DEVHIS-404-CYBER
+#CREATE BY : Hasan Imam
+#WHATSAPP : +8801700909089
+#GITHUB : https://github.com/X74TEAM/
 #----------------------------------------------------------------------------------------------------------
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
@@ -61,7 +58,7 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
- prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=bd&ssl=all&anonymity=all').text
+ prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
  open('.prox.txt','w').write(prox)
 except Exception as e:
  print('')
