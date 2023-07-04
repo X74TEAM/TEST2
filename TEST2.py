@@ -137,6 +137,7 @@ def fuck():
     code = input('┗━[+] CHOOSE CODE : ')
     name = ''.join(random.choice(string.digits) for _ in range(2))
     cod = ''.join(random.choice(string.digits) for _ in range(2))
+    os.system('clear')
     print(logo)
     print('┏━[•] EXAMPLE: 2000 3000 5000 10000 ')
     limit = int(input('┗━[+] CHOOSE : '))
