@@ -199,7 +199,7 @@ def DEVHIS2(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 8; Redmi I675 Ultra Build/OPR6.875151.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/93.0.3794.782 Mobile Safari/537.36',}
+    'user-agent': 'Mozilla/5.0 (Linux; Android 5; Nokia) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.3443.601 Mobile Safari/537.36',}
             lo = session.post('https://mbasic.alpha.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
