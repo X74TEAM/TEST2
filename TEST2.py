@@ -205,8 +205,8 @@ def DEVHIS2(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\n\033[1;92m[\033[1;31mACTIVE\033[1;92m] {uid} | {ps} \n\033[1;37mCookie:\x1b[0m {coki} \n")
-                open('/sdcard/DEVHIS-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                print(f"\n\033[1;92m[\033[1;31mACTIVE\033[1;92m] {cid} • {ps} \n")
+                open('/sdcard/DEVHIS-OK.txt', 'a').write( uid+' | '+ps+'\n'+coki+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
