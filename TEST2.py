@@ -312,7 +312,7 @@ def superuser():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/X74TEAM/TEST2/blob/main/CONTROL.txt).text
+    DARK=requests.get("https://github.com/X74TEAM/TEST2/blob/main/CONTROL.txt").text
     if id in DARK:
         Main()
     else:
