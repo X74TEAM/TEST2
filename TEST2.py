@@ -121,7 +121,7 @@ class jalan:
             sys.stdout.write(e)
             sys.stdout.flush()
             time.sleep(0.001)
-sys.stdout.write('\x1b[1;35m\x1b]2; MAHIDI X HRIDOY \x07')
+sys.stdout.write('\x1b[1;35m\x1b]2; DEVHIS Free Command \x07')
 
 logo=("""
   \x1b[1;92m╔╗╔╗\033[0;33m╔══╗\033[0;34m╔══╗\033[0;35m╔══╗\033[0;31m╔═╦╗ \033[0;36m╔══╗\033[0;37m╔═╦═╗\x1b[1;92m╔══╗\033[0;31m╔═╦═╗
