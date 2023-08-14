@@ -222,10 +222,10 @@ def virusA():
 	os.system('clear')
 	print(logo)
 	print(" ┏━[•] BD SIM CODE : 017 018 019 013 015 016]")
-	kode = input(' ┗━[+] SELECT : ')
+	kode = input(' ┗━[+] SELECT   : ')
 	doamin = ' BD Number id cloner [ONLY-OK] '
 	print(' ┏━[•] EXAMPLE : 1000,5000,10000,15000,20000] ')
-	limit = int(input(' ┗━[+] LIMIT : '))
+	limit = int(input(' ┗━[+] LIMIT  : '))
 	for nmbr in range(limit):
 		koda = ''.join(random.choice(string.digits) for _ in range(2))
 		kodb = ''.join(random.choice(string.digits) for _ in range(2))
