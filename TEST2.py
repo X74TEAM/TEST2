@@ -224,8 +224,8 @@ def virusA():
 	print(" ┏━[•] BD SIM CODE : 017 018 019 013 015 016]")
 	kode = input(' ┗━[+] SELECT      : ')
 	doamin = ' BD Number id cloner [ONLY-OK] '
-	print(' ┏━[•] EXAMPLE  : 1000,5000,10000,15000,20000] ')
-	limit = int(input(' ┗━[+] LIMIT    : '))
+	print(' ┏━[•] EXAMPLE     : 1000,5000,10000,15000,20000] ')
+	limit = int(input(' ┗━[+] LIMIT       : '))
 	for nmbr in range(limit):
 		koda = ''.join(random.choice(string.digits) for _ in range(2))
 		kodb = ''.join(random.choice(string.digits) for _ in range(2))
@@ -258,7 +258,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93m[DEVHIS]\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93mDEVHIS\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
